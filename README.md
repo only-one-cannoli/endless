@@ -23,3 +23,24 @@ Overall flow
 * Move from Location to Location until the goal given on the Quest card is reached.  
 * Once the goal has been achieved, keep moving until you find the Exit.  
 * Play ends when the solo adventurer runs out of health or the exit is found after the goal has been achieved.  
+
+Further thoughts that may not mesh with those above:
+Three decks: locations, encounters, items
+Locations have a number of exits, a number of encounters, and a number of items
+Upon visiting a location, draw the encounters and items
+Some monsters can be bribed with an item instead of fighting them
+Note the total monster score of unbribed enemies; this is the number to beat
+Roll dice and add bonuses from abilities and items
+If you win, the monsters are discarded, you get the items, and you can draw location cards equal to the number of exits; select among these location cards
+If you lose, your health decreases by 1, and you draw only one location and immediately move to it
+
+Abilities include
+carry an extra item (normally only some number can be carried)
+have a bonus in combat
+be able to identify potions
+be able to read spell scrolls (take multiple times to use higher-level spells)
+be able to avoid traps
+draw an extra location card when moving
+gain a bonus equal to the number of phrenite ore items carried
+
+Gebbeth -- a shadow enemy appears in multiple quests and becomes progressively harder, overshadowing other boss monsters related to quests; can't be bribed
