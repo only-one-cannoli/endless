@@ -41,6 +41,10 @@ be able to identify potions
 be able to read spell scrolls (take multiple times to use higher-level spells)
 be able to avoid traps
 draw an extra location card when moving
-gain a bonus equal to the number of phrenite ore items carried
 
 Gebbeth -- a shadow enemy appears in multiple quests and becomes progressively harder, overshadowing other boss monsters related to quests; can't be bribed
+
+More thoughts
+Taking further inspiration from Le Guin, let's say that there is an item called phrenite ore that gives you a big advantage in combat; the effect increases with the number of pieces of phrenite that you carry.  However, every time you use it, a shadow enemy is created.  The game will force you to use phrenite at least once in fighting a dragon (Yevaud -- the name should provide an indication for where some of these ideas are coming from).  These shadows persist in the game across quests until they are destroyed or the adventurer dies.  Speaking of player death, it is permanent in the roguelike sense, but all completed quests remain completed, and the first quest that the new PC undertakes is to recover the equipment of the last one.  
+
+
