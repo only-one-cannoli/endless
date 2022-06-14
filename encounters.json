@@ -1,0 +1,29 @@
+{
+  "skeleton": {
+    "description": "You're not sure what kind of creature this skeleton was in life.  In undeath, it looks almost apologetic as it tries to bite and claw you!",
+    "alt_description": "The skeleton howls sadly as it reaches for you with fragile, clawlike fingers.",
+    "on_draw": null,
+    "on_discard": null,
+    "threat_score": 2,
+    "items": 0,
+    "can_bribe": false
+  },
+  "kobold": {
+    "description": "The smallest members of the goblin family dislike outsiders but can be persuaded not to attack if there's something in it for them.",
+    "alt_description": "The kobold sizes you up, considering whether you're more likely to attack or offer a bribe.",
+    "on_draw": null,
+    "on_discard": null,
+    "threat_score": 3,
+    "items": 1,
+    "can_bribe": true
+  },
+  "crawler": {
+    "description": "Crawlers normally consume rotting carcasses, but this one has decided to try a living meal -- you!",
+    "alt_description": "The crawler's dripping mouth parts work against each other hungrily.  Perhaps it is anticipating how you will taste!",
+    "on_draw": null,
+    "on_discard": null,
+    "threat_score": 4,
+    "items": 0,
+    "can_bribe": false
+  }
+}

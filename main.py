@@ -13,6 +13,9 @@ print("That's a good name!")
 
 @dataclass(frozen=True)
 class PC:
+    """
+    Player character
+    """
     name: str
     health: int = 3
     max_health: int = 3
