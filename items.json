@@ -1,12 +1,23 @@
 {
   "potion of healing": {
     "description": "This bottle contains an iridescent fluid.",
-    "on_add_to_hand": null,
+    "on_in_hand": null,
     "on_discard": {"function": "change_hp", "arguments": 2}
   },
   "sword +1": {
     "description": "This sword is clearly ancient.  Who knows whose hands have held it before?",
-    "on_add_to_hand": {"function": "change_melee_bonus", "arguments": 1},
+    "on_in_hand": {"function": "change_melee_bonus", "arguments": 1},
     "on_discard": {"function": "change_melee_bonus", "arguments": -1}
+  },
+  "scroll of magic missile": {
+    "description": "This small parchment roll contains closely written script.",
+    "on_in_hand": null,
+    "on_discard": {"function": "decrease_threat", "arguments": 1}
+  }
+  "small quartz crystal": {
+    "description": "This elongated, transparent crystal has six sides and comes to a perfect point."
+  },
+  "carved silver ring": {
+    "description": "This large silver ring shows a smiling face with two small, green gems for eyes."
   }
 }
