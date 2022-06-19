@@ -1,9 +1,54 @@
 {
-  "name": {
+  "exposed ridge": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 0,
+    "description": "There are only two ways off this bare mountain ridge: forward, backward, and a long, long way downward.  Actually, that's three ways.",
+    "short_description": "",
+    "on_draw": null,
+    "on_discard": null
+  },
+  "narrow col": {
     "adjoins": 2,
     "encounters": 1,
     "items": 1,
-    "description": "",
+    "description": "A broad path has led you to this passage between two adjacent mountaintops.  Snow from the previous winter remains here.",
+    "short_description": "",
+    "on_draw": null,
+    "on_discard": null
+  },
+  "stone thrones": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 1,
+    "description": "The workers have abandoned this quarry, but someone has built up the leftover stone pieces into thrones that look out from the mountainside.",
+    "short_description": "",
+    "on_draw": null,
+    "on_discard": null
+  },
+  "burned inn": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 1,
+    "description": "A long-ago fire consumed everything in this inn but the stone walls.  Through a door, you see a staircase descending to the lower level.",
+    "short_description": "",
+    "on_draw": null,
+    "on_discard": null
+  },
+  "stone arch": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 1,
+    "description": "A stream runs under this natural arch.  Looking through the opening, you can see where the water disappears at the base of a cliff face.",
+    "short_description": "",
+    "on_draw": null,
+    "on_discard": null
+  },
+  "marsh path": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 1,
+    "description": "Someone laid cut logs to make a path through this marsh, but the dirty water and mud are reclaiming it.  Your boots sink deep into the loose muck.",
     "short_description": "",
     "on_draw": null,
     "on_discard": null

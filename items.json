@@ -1,8 +1,12 @@
 {
-  "name": {
-    "description": "",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+  "potion of healing": {
+    "description": "This bottle contains an iridescent fluid.",
+    "on_add_to_hand": null,
+    "on_discard": {"function": "change_hp", "arguments": 2}
+  },
+  "sword +1": {
+    "description": "This sword is clearly ancient.  Who knows whose hands have held it before?",
+    "on_add_to_hand": {"function": "change_melee_bonus", "arguments": 1},
+    "on_discard": {"function": "change_melee_bonus", "arguments": -1}
   }
 }
