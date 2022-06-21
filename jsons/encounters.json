@@ -1,0 +1,18 @@
+{
+  "skeleton": {
+    "description": "This skeleton is all that remains of a formerly living person.  In undeath, it looks almost apologetic, howling sadly as it reaches for you with fragile, clawlike fingers.",
+    "hit_dice": 1
+  },
+  "kobold": {
+    "description": "The smallest members of the goblin family dislike outsiders but can be persuaded not to attack if there's something in it for them.  This kobold sizes you up, considering whether you're more likely to attack or offer a bribe.",
+    "hit_dice": 2,
+    "items": 1,
+    "can_bribe": true
+  },
+  "crawler": {
+    "description": "Crawlers normally consume rotting carcasses, but this one has decided to try a living meal -- you!  The crawler's dripping mouth parts work against each other hungrily.",
+    "on_draw": {"function": "stop_move", "arguments": null},
+    "on_defeat": {"function": "restore_move", "arguments": null},
+    "hit_dice": 3
+  }
+}

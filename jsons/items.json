@@ -13,7 +13,7 @@
     "description": "This small parchment roll contains closely written script.",
     "on_in_hand": null,
     "on_discard": {"function": "decrease_threat", "arguments": 1}
-  }
+  },
   "small quartz crystal": {
     "description": "This elongated, transparent crystal has six sides and comes to a perfect point."
   },
