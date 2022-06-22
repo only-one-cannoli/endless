@@ -1,20 +1,20 @@
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import Optional, Tuple
 
 
 @dataclass(frozen=True)
 class PC:
     """
-    Player character
+    Player character.
     """
 
     name: str
     hp: int = 3
     max_hp: int = 3
-    abilities: Optional[List[str]] = []
-    items: Optional[List[str]] = []
+    abilities: Optional[Tuple[str, ...]] = tuple()
+    items: Optional[Tuple[str, ...]] = tuple()
     max_items: int = 5
 
     def __post_init__(self):
-        if len(items) > max_items:
+        if len(self.items) > self.max_items:
             raise ValueError("Too many items!")

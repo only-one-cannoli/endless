@@ -1,17 +1,21 @@
-import cmd
-
-from .python.classes import PC
-from .python.functions import check_name
+from .src.cli import CLI
+from .src.functions import check_name
+from .src.pc import PC
 
 if __name__ == "__main__":
 
-    name_ok = False
+    name_ok: bool = False
     while name_ok is False:
         name: str = input("What is your name? ")
         name_ok = check_name(name)
+        if not name_ok:
+            print("That won't do!")
     print("That's a good name!")
 
     pc = PC(name=name)
+
+    CLI().cmdloop()
+
 
 # get player name
 # generate location, encounter, and item decks
