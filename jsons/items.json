@@ -1,15 +1,18 @@
 {
   "potion of healing": {
+    "unidentified_name": "unidentified potion",
     "description": "This bottle contains an iridescent fluid.",
     "on_in_hand": null,
     "on_discard": {"function": "change_hp", "arguments": 2}
   },
   "sword +1": {
-    "description": "This sword is clearly ancient.  Who knows whose hands have held it before?",
+    "unidentified_name": "ancient sword",
+    "description": "This sword is clearly very old, but its edge is so sharp that even touching them with your fingers leaves small, bloody cuts.  Who knows whose hands have held this sword before?",
     "on_in_hand": {"function": "change_melee_bonus", "arguments": 1},
     "on_discard": {"function": "change_melee_bonus", "arguments": -1}
   },
   "scroll of magic missile": {
+    "unidentified_name": "small scroll",
     "description": "This small parchment roll contains closely written script.",
     "on_in_hand": null,
     "on_discard": {"function": "decrease_threat", "arguments": 1}

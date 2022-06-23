@@ -1,56 +1,61 @@
 {
   "exposed ridge": {
-    "adjoins": 2,
+    "adjoins": 1,
     "encounters": 1,
-    "items": 0,
-    "description": "There are only two ways off this bare mountain ridge: forward, backward, and a long, long way downward.  Actually, that's three ways.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "description": "There are only two ways off this bare mountain ridge: forward and a long, long way downward.  Trees rooted below the level where you're standing stretch up over your head."
   },
   "narrow col": {
-    "adjoins": 2,
+    "adjoins": 1,
     "encounters": 1,
-    "items": 1,
-    "description": "A broad path has led you to this passage between two adjacent mountaintops.  Snow from the previous winter remains here.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "items": 0,
+    "description": "A broad path has led you to this passage between two adjacent mountaintops.  Snow from the previous winter remains here."
   },
   "stone thrones": {
     "adjoins": 2,
     "encounters": 1,
-    "items": 1,
-    "description": "The workers have abandoned this quarry, but someone has built up the leftover stone pieces into thrones that look out from the mountainside.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "items": 0,
+    "description": "The workers have abandoned this quarry, but someone has built up the leftover stone pieces into thrones that look out from the mountainside."
   },
   "burned inn": {
-    "adjoins": 2,
+    "adjoins": 3,
     "encounters": 1,
     "items": 1,
-    "description": "A long-ago fire consumed everything in this inn but the stone walls.  Through a door, you see a staircase descending to the lower level.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "description": "A long-ago fire consumed everything in this inn but the stone walls.  Through a door, you see a staircase descending to a lower level."
   },
   "stone arch": {
     "adjoins": 2,
     "encounters": 1,
     "items": 1,
-    "description": "A stream runs under this natural arch.  Looking through the opening, you can see where the water disappears at the base of a cliff face.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "description": "A stream runs under this natural arch.  Looking through the opening, you can see that the water disappears at the base of a cliff face."
   },
   "marsh path": {
+    "adjoins": 1,
+    "encounters": 1,
+    "items": 1,
+    "description": "Someone laid cut logs to make a path through this marsh, but the dirty water and mud are reclaiming it.  Your boots sink deep into the loose muck."
+  },
+  "boat grave": {
+    "adjoins": 3,
+    "encounters": 1,
+    "items": 1,
+    "description": "You suddenly realize that the grassy depression that you're standing in has stones all along its edges.  Following the stones, your eyes pick out the outline of a longboat.  This is a boat grave!"
+  },
+  "hillside spring": {
     "adjoins": 2,
     "encounters": 1,
     "items": 1,
-    "description": "Someone laid cut logs to make a path through this marsh, but the dirty water and mud are reclaiming it.  Your boots sink deep into the loose muck.",
-    "short_description": "",
-    "on_draw": null,
-    "on_discard": null
+    "description": "Here, water pours from a spring on a steep hillside and runs down into the defile below."
+  },
+  "grave mounds": {
+    "adjoins": 3,
+    "encounters": 1,
+    "items": 1,
+    "description": "These three tall, conical mounds stand by themselves, far from any other hills.  Some long-ago kings must be buried beneath them."
+  },
+  "missing bridge": {
+    "adjoins": 2,
+    "encounters": 1,
+    "items": 1,
+    "description": "There used to be a bridge here, but it's gone now.  The creek it crossed is small but deep and fast.  You're not at all confident that you can swim across."
   }
 }
