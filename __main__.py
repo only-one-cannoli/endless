@@ -1,3 +1,8 @@
+"""
+__main__.py
+Calls and integrates materials from subfolders in the repo.
+"""
+
 from .src.cli import CLI
 from .src.functions import check_name
 from .src.pc import PC
@@ -7,10 +12,8 @@ if __name__ == "__main__":
     name_ok: bool = False
     while name_ok is False:
         name: str = input("What is your name? ")
-        name_ok = check_name(name)
-        if not name_ok:
-            print("That won't do!")
-    print("That's a good name!")
+        name_ok, message = check_name(name)
+        print(message)
 
     pc = PC(name=name)
 

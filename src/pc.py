@@ -1,3 +1,8 @@
+"""
+pc.py
+Sets up a dataclass to represent the player character.
+"""
+
 from dataclasses import dataclass
 from typing import Optional, Tuple
 
@@ -9,6 +14,7 @@ class PC:
     """
 
     name: str
+    # pylint: disable-next=invalid-name
     hp: int = 3
     max_hp: int = 3
     abilities: Optional[Tuple[str, ...]] = tuple()
