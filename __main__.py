@@ -5,7 +5,7 @@ Calls and integrates materials from subfolders in the repo.
 
 from .src.cli import CLI
 from .src.functions import check_name
-from .src.pc import PC
+from .src.state import PC
 
 if __name__ == "__main__":
 

@@ -5,8 +5,14 @@ Uses the `cmd` package to set up a command-line interface for the game.
 
 import cmd
 import sys
-from dataclasses import dataclass, field
-from typing import List, TextIO
+from dataclasses import (
+    dataclass,
+    field,
+)
+from typing import (
+    List,
+    TextIO,
+)
 
 # pylint: disable=unnecessary-pass
 
@@ -104,4 +110,6 @@ class CLI(cmd.Cmd):
         """
         Provides help for the `get` command.
         """
-        print("Pick up an item.  Cannot be used if hostile creatures are present.")
+        print(
+            "Pick up an item.  Cannot be used if hostile creatures are present."
+        )
